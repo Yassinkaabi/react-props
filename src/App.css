@@ -1,4 +1,49 @@
 /* CSS */
+.body {
+  font-size: 15px;
+}
+
+.card-holder {
+  margin: 2em 1;
+}
+
+.card {
+  font-family:  'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  height: 4em;
+  width: 64em;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  display: table-cell;
+  vertical-align: middle;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* .card .subtle {
+  color: #000;
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: -1px;
+} */
+
+/* .card i {
+  font-size: 3em;
+} */
+
+.bg-aurora {
+    color: #fff;
+    background: -webkit-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: -o-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: -moz-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+  background-size: cover;
+  background-position: 50% 21%;
+  text-align: right;
+}
+
+
+
 .button-73 {
   appearance: none;
   background-color: #FFFFFF;
